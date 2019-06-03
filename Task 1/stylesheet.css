@@ -1,0 +1,25 @@
+.body_c{
+    padding: 5%;
+    font-family: 'Exo', sans-serif;
+}
+.outter_spacebar{
+    margin-left: 10%;
+}
+.spacebar{
+    display: flex;
+}
+.spacebar_inner{
+    margin-right: 20px;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.img{
+    width: 200px;
+    height: 250px;
+}
+.images{
+    display: flex;
+    margin-bottom: 5%;
+}
