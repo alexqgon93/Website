@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 .body_c{
-    padding-top: 1%;
-    font-family: 'Exo', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 10%;
+    background-image: linear-gradient(to bottom right, #5077BC, green);
 }
 h1{
     width: 80%;
-    font-size: 50px;
     font-style: italic;
     font-family: 'Sigmar One', cursive;
     
+}
+input[type=text] {
+    font-family: 'Poppins', sans-serif;
 }
 .outter_spacebar{
     margin-left: 10%;
@@ -31,7 +34,11 @@ h1{
 }
 .img{
     width: 100%;
-    height: 300px;
+    height: 400px;
+}
+.img_1{
+    width: 100%;
+    height: 400px;
 }
 .images{
     display: flex;
@@ -89,4 +96,34 @@ td{
 }
 .inner{
     vertical-align: middle;
+}
+#ip4 {
+    border-radius: 15px 50px 30px;
+    border: 2px solid #609;
+    padding: 2px;
+    width: 165px;
+    height: 15px; 
+}
+.btn{
+    color: #0099CC; 
+    background: transparent; 
+    border: 2px solid #0099CC;
+    border-radius: 6px; 
+    border: none;      
+    color: white;      
+    padding: 16px 32px;      
+    text-align: center;      
+    display: inline-block;      
+    font-size: 16px;      
+    margin: 4px 2px;      
+    -webkit-transition-duration: 0.4s; /* Safari */      
+    transition-duration: 0.4s;      
+    cursor: pointer;      
+    text-decoration: none;      
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.btn:hover {      
+    background-color: #008CBA;      
+    color: white; 
 }
